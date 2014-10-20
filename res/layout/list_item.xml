@@ -7,11 +7,12 @@
 
     <TextView
         android:id="@+id/linkTextView"
-        android:layout_width="300dp"
-        android:maxWidth="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:maxWidth="300dp" />
 
     <ImageView
         android:id="@+id/imageView1"

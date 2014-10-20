@@ -20,6 +20,7 @@ import com.cclouds.controller.AppController;
 import com.example.ccloudscustomlistview.R;
 
 public class CustomListAdapter extends BaseAdapter implements RecyclerListener {
+	
 	private static LayoutInflater mInflater;
 	ArrayList<String> mLinksList;
 	
